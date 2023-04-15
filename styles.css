@@ -87,7 +87,6 @@ main{
     align-items: center;
 }
 main > * {
-    flex: 1 1 0;
     padding-left: 10vw;
     padding-right: 10vw;
 
@@ -101,14 +100,16 @@ main > * {
 }
 
 .container-cards{
-    margin-top: 3vh;
     width: 80%;
     display: flex;
     gap: 5vw;
     flex: 1 1 0;
     justify-content: space-between;
+    margin-bottom: 8vh;
 }
-main > h2{
+.cards-heading{
+    flex: 0;
+    margin: 4vh;
     font-size: 36px;
     font-weight: 900;
 }
@@ -126,8 +127,7 @@ main > h2{
     font-weight: 100;
 }
 .quote {
-    margin-top: 0vh;
-    flex: 6 3 0;
+    flex: 2 2 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +141,46 @@ main > h2{
 
 .call_for_action {
     flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.call-container {
+    display: flex;
+    color: white;
+    background-color: rgb(114, 114, 255);
+    padding: 20px;
+    margin: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.call-container > * {
+}
+.call {
+    flex: 3 1 0;
+}
+.call-btn{
+    flex: 1 1 0;
+    border: white 1px solid;
+    border-radius: 4px;
+    margin-left: 70px;
+    background-color: rgb(114, 114, 255);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.call-container > div >h3 {
+    font-weight: 900;
+    font-size: 16px;
+}
+.call-container > div >p {
+    font-size: 10px;
+}
+
 footer {
     display: flex;
     justify-content: center;
