@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: start;
-    margin-bottom: 4vh;
+    margin-bottom: 60px;
 }
 h2 {
     padding: 0;
@@ -101,6 +101,7 @@ main > * {
 }
 
 .container-cards{
+    margin-top: 3vh;
     width: 80%;
     display: flex;
     gap: 5vw;
@@ -109,7 +110,7 @@ main > * {
 }
 main > h2{
     font-size: 36px;
-    margin-top: 10px;
+    font-weight: 900;
 }
 .card {
     display: flex;
@@ -125,8 +126,8 @@ main > h2{
     font-weight: 100;
 }
 .quote {
-    margin-top: 60px;
-    flex: 3 3 0;
+    margin-top: 0vh;
+    flex: 6 3 0;
     display: flex;
     justify-content: center;
     align-items: center;
